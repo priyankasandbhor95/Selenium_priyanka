@@ -17,6 +17,8 @@ public class File_Utility {
 		pro.load(fis);
 		String value=pro.getProperty(key);
 		return value;
+		
+		
 	}
 	
 	public String readExcelData(String sheetname,int rownum,int cellnum) throws EncryptedDocumentException, IOException
