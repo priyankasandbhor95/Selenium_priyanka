@@ -39,6 +39,10 @@ public class Base_Test {
 	public Web_Driver_utility webdriver_utility=new Web_Driver_utility();
 	public WebDriverWait wait;
 
+	
+	
+	
+	
 	@BeforeSuite
 	public void beforesuite()
 	{
