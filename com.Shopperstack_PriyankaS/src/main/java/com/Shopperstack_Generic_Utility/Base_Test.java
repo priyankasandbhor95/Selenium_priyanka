@@ -65,13 +65,13 @@ public class Base_Test {
 	@BeforeClass
 	public void beforeclass() throws IOException
 	{
-		String browser=file_Uti.readPropertyData("browserName");
-		String url=file_Uti.readPropertyData("urlName");
+		//String browser=file_Uti.readPropertyData("browserName");
+		//String url=file_Uti.readPropertyData("urlName");
 	
 	
 //*********************cmd code next two line*********************//
-		//String browser=System.getProperty("browserName");
-		//String url=System.getProperty("urlName");
+		String browser=System.getProperty("browserName");
+		String url=System.getProperty("urlName");
 		
 		System.out.println("@BeforeClass");
 		if(browser.toLowerCase().contains("chrome"))
